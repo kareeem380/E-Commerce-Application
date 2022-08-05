@@ -21,9 +21,10 @@ header{
   top: 0;
 }
 nav{
+  margin-top: 15px;
   display: flex;
   padding: 16px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #f1f1f1;
 }
@@ -47,7 +48,7 @@ nav{
   width: 288px;
   row-gap: 24px;
   right: -288px;
-  padding: 24px 16px;
+  padding: 0px 16px;
   transition: all 0.2s;
   min-height: calc(100vh - 60px);
   background-color: #f1f1f1;
@@ -76,6 +77,8 @@ nav{
     display: none;
   }
   .nav__menu-list{
+    left: 1000px;
+ 
     position: unset;
     flex-direction: row;
     min-height: fit-content;

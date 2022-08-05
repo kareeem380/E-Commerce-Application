@@ -22,15 +22,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className={`nav`}>
-        <Link href={"/"}>
-          <a>
-          <div className="logo"><Image 
-      src={logo}
-      alt="Picture of the author"
-      width={150}
-      height={50}/></div>
-          </a>
-        </Link>
+        
         <div
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
