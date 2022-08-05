@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Herosection from "../components/Herosection";
 import SearchBar from "../components/SearchBar";
 
+
 function MyApp({ Component, pageProps }) {
   return (
     <>

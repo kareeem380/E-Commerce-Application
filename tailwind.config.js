@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     colors:{
       'bluee':'#6633cc',
+      'grayy':'rgb(241 241 241)',
     },
     extend: {},
   },
