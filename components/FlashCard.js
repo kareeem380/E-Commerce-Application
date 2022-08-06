@@ -1,7 +1,5 @@
 import React, { useState } from "react"
 import Slider from "react-slick"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
 
 const SampleNextArrow = (props) => {
   const { onClick } = props
@@ -63,10 +61,8 @@ const FlashCard = ({ productItems, addToCart }) => {
                     <i className='fa fa-star'></i>
                   </div>
                   <div className='price'>
-                    <h4>${productItems.price}.00 </h4>
-                    {/* step : 3  
-                     if hami le button ma click garryo bahne 
-                    */}
+                    <h4>{productItems.price}.00 Dh</h4>
+
                     <button onClick={() => addToCart(productItems)}>
                       <i className='fa fa-plus'></i>
                     </button>
@@ -78,7 +74,7 @@ const FlashCard = ({ productItems, addToCart }) => {
         })}
       </Slider>
     </>
-  )
+  );
 }
 
 export default FlashCard

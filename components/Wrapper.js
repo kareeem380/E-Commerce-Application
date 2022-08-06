@@ -1,9 +1,10 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Wrapper() {
     const data = [
         {
-            cover: <i class='fa-solid fa-truck-fast'></i>,
+            cover: <FontAwesomeIcon class='fa-solid fa-truck-fast' />,
             title: "Worldwide Delivery",
             decs: "We offer competitive prices on our 100 million plus product any range.",
         },
@@ -24,23 +25,36 @@ function Wrapper() {
         },
     ]
     return (
+
         <>
-            <section className='wrapper bg-grayy'>
-                <div className='container grid2'>
-                    {data.map((val, index) => {
-                        return (
-                            <div className='product' key={index}>
-                                <div className='img icon-circle'>
-                                    <i>{val.cover} icon</i>
+
+            <section className='flash wrapper bg-grayy'>
+                <div className='container'>
+                    <div className='heading f_flex'>
+                        <h1>Features</h1>
+                    </div>
+                    <div className="grid2">
+                        {data.map((val, index) => {
+                            return (
+                                <div className='product' key={index}>
+                                    <div className='img icon-circle'>
+                                        <i>{val.cover}</i>
+                                    </div>
+                                    <h3>{val.title}</h3>
+                                    <p>{val.decs}</p>
                                 </div>
-                                <h3>{val.title}</h3>
-                                <p>{val.decs}</p>
-                            </div>
-                        )
-                    })}
+                            )
+                        })}
+                    </div>
+
                 </div>
             </section>
         </>
+
+
+
+
+
     );
 }
 
