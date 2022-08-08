@@ -16,10 +16,17 @@
 .search {
   padding: 20px 0;
 }
-.search .logo img {
+.search {
   width: auto;
   height: auto;
 }
+
+.logo_otomoto{
+  height: 44px;
+  width: 98px;
+  /* width="98" height="44" viewBox="0 0 98 44" */
+}
+
 .search .width {
   width: 20%;
 }
