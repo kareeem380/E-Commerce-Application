@@ -9,10 +9,8 @@ const Navbar = () => {
       <header className='header'>
         <div className='container d_flex'>
           <div className='catgrories d_flex'>
-            <span class='fa-solid fa-border-all'></span>
-            <h4>
-              Categories <i className='fa fa-chevron-down'></i>
-            </h4>
+           
+            
           </div>
 
           <div className='navlink'>
@@ -28,7 +26,7 @@ const Navbar = () => {
                 <Link to='/user'>user account</Link>
               </li>
               <li>
-                <Link to='/vendor'>vendor account</Link>
+                <Link to='/vendor'>Categories</Link>
               </li>
               <li>
                 <Link to='/track'>track my order</Link>
