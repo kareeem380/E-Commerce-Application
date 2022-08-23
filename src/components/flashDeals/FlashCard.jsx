@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import { Link } from "react-router-dom"
 
 const SampleNextArrow = (props) => {
   const { onClick } = props
@@ -41,9 +42,11 @@ const FlashCard = ({ productItems, addToCart }) => {
   return (
     <>
       <Slider {...settings}>
+   
         {productItems.map((productItems) => {
           return (
-            <div className='box'>
+            <div className='box'>  
+              <Link to='/description'>
               <div className='product mtop'>
                 <div className='img'>
                   <span className='discount'>{productItems.discount}% Off</span>
@@ -72,8 +75,9 @@ const FlashCard = ({ productItems, addToCart }) => {
                     </button>
                   </div>
                 </div>
-              </div>
+              </div></Link>
             </div>
+            
           )
         })}
       </Slider>
