@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
-
+import FadeMenu from "./FadeMenu"
 const Navbar = () => {
   // Toogle Menu
   const [MobileMenu, setMobileMenu] = useState(false)
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <Link to='/user'>user account</Link>
               </li>
               <li>
-                <Link to='/vendor'>Categories</Link>
+               < FadeMenu />
               </li>
               <li>
                 <Link to='/track'>track my order</Link>
