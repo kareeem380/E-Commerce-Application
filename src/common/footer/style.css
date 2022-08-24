@@ -44,3 +44,6 @@ footer li {
 .colors{
   color: #0f3460;
 }
+.content{
+  cursor: pointer;
+}
