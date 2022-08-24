@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FormControl, Select, InputLabel, MenuItem } from "@mui/material";
+import FadeMenu from "./FadeMenu";
 const Navbar = () => {
   // Toogle Menu
   const [MobileMenu, setMobileMenu] = useState(false);
@@ -8,21 +8,7 @@ const Navbar = () => {
     <>
       <header className="header">
         <div className="container d_flex">
-          <div className="catgrories d_flex">
-            <FormControl fullWidth>
-              <InputLabel id="demo-simple-select-label">Age</InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                value={45}
-                label="Age"
-              >
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
-              </Select>
-            </FormControl>
-          </div>
+          <div className="catgrories d_flex"></div>
 
           <div className="navlink">
             <ul
@@ -42,7 +28,7 @@ const Navbar = () => {
                 <Link to="/user">user account</Link>
               </li>
               <li>
-                <Link to="/vendor">vendor account</Link>
+                <FadeMenu />
               </li>
               <li>
                 <Link to="/track">track my order</Link>
