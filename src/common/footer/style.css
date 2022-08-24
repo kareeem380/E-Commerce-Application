@@ -1,10 +1,11 @@
 footer {
   background-color: #0f3460;
-  padding: 100px 0;
+  padding: 60px 0;
   color: #fff;
 }
 footer h1 {
   margin-bottom: 30px;
+  margin-left: 97px;
   color: #e94560;
   font-weight: 800;
   font-style: italic;
@@ -33,4 +34,13 @@ footer h2 {
 footer li {
   margin-bottom: 10px;
   opacity: 0.5;
+}
+.spacer{
+  margin-left: 150px;
+}
+.centre{
+  align-items: center;
+}
+.colors{
+  color: #0f3460;
 }
