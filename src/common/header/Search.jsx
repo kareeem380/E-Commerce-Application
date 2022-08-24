@@ -9,6 +9,9 @@ const Search = ({ CartItem }) => {
     search.classList.toggle("active", window.scrollY > 100)
   })
 
+    
+
+
   return (
     <>
       <section className='search'>

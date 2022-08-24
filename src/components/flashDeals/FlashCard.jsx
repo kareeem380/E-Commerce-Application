@@ -42,9 +42,7 @@ const FlashCard = ({ productItems, addToCart }) => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
-  const handleClick = (event, arg) => {
-    console.log(arg);
-  };
+
   return (
     <>
       <Slider {...settings}>
