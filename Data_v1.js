@@ -44,9 +44,34 @@ const Data = {
             updatedAt: "02/09/2022",
             quantite: 20,
 
-            cover: "./assets/piece2.png",
+            cover: "./assets/piece2.jpg",
             name: "APlus A609 145/70 R12 69T Pneus été",
             prix: 3100,
+        },
+        {
+            id: 3,
+            vin: "bla bla bla",
+            reference: "RO8904R09Y90",
+            description: {
+                Unité_quantitative: "Set d'essieu",
+                Gamme_de_produits: "PREMIER ECO FRICTION",
+                Indicateur_usure: "contact de signal d'usure inclus",
+                Longueur_mm: 160.1,
+                Hauteur_mm: 64.6,
+                Épaisseur_mm: 20.2,
+                
+            },
+            typeVehicule: " ",
+            categoryId: 0,
+            fournisseurId: 0,
+            panierId: 0,
+            createdAt: "01/09/2022",
+            updatedAt: "02/09/2022",
+            quantite: 5,
+
+            cover: "./assets/piece3.jpg",
+            name: "FERODO PREMIER ECO FRICTION FDB4433 Jeu de plaquettes de frein",
+            prix: 4000,
         },
 
     ],
