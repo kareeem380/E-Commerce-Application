@@ -79,6 +79,9 @@ function App() {
       );
     }
   };
+  const removeProduct = (product) => {
+    setCartItem(CartItem.filter((item) => item.id !== product.id));
+  };
 
   return (
     <>
@@ -98,10 +101,15 @@ function App() {
                 CartItem={CartItem}
                 addToCart={addToCart}
                 decreaseQty={decreaseQty}
+                removeProduct={removeProduct}
               />
             </Route>
             <Route path="/description" exact>
-              <Description />
+              <Description
+                CartItem={CartItem}
+                addToCart={addToCart}
+                decreaseQty={decreaseQty}
+              />
             </Route>
           </Switch>
           <Footer />
