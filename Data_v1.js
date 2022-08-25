@@ -73,6 +73,31 @@ const Data = {
             name: "FERODO PREMIER ECO FRICTION FDB4433 Jeu de plaquettes de frein",
             prix: 4000,
         },
+        {
+            id: 4,
+            vin: "bla bla bla",
+            reference: "220100S",
+            description: {
+                Filetage: "M 16 x 1,50 x 12",
+                Longueur_mm: 15.5,
+                Ouverture_de_la_clé: "8 x 8",
+                Article_complémentaire_et_Info_complémentaire_2: "avec bague d'étanchéité",
+                Type_emballage: "Emballage en blister",
+                CORTECO: "Vis-bouchon, carter d'huile",
+                
+            },
+            typeVehicule: " ",
+            categoryId: 0,
+            fournisseurId: 0,
+            panierId: 0,
+            createdAt: "01/09/2022",
+            updatedAt: "02/09/2022",
+            quantite: 5,
+
+            cover: "./assets/piece4.jpg",
+            name: "CORTECO 220100S Vis-bouchon, carter d'huile",
+            prix: 50,
+        },
 
     ],
 }
