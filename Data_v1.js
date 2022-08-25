@@ -98,6 +98,32 @@ const Data = {
             name: "CORTECO 220100S Vis-bouchon, carter d'huile",
             prix: 50,
         },
+        {
+            id: 5,
+            vin: "bla bla bla",
+            reference: "0 092 S5A 080",
+            description: {
+                txt: "12V 70Ah 760A B13 Batterie AGM",
+                Capacité_de_batterie: "70 AH",
+                Rebord_de_fixation: "B13",
+                Voltage: "12 V",
+                Longueur_mm: 278,
+                Hauteur_mm: 190,
+                DIN_ISO : "L3",
+
+            },
+            typeVehicule: " ",
+            categoryId: 0,
+            fournisseurId: 0,
+            panierId: 0,
+            createdAt: "01/09/2022",
+            updatedAt: "02/09/2022",
+            quantite: 5,
+
+            cover: "./assets/piece5.jpg",
+            name: "BOSCH S5 0 092 S5A 080 Batterie de démarrage",
+            prix: 50,
+        },
 
     ],
 }
