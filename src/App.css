@@ -15,6 +15,11 @@ body {
   background: #f6f9fc;
   padding: 50px 0;
 }
+.containers {
+ 
+  margin-top: 8%;
+ 
+}
 .container {
   max-width: 90%;
   margin: auto;
@@ -71,7 +76,7 @@ button {
 
 /*---------category----------*/
 .contentWidth {
-  width: 100%;
+  width: 75%;
 }
 .category {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
