@@ -1,5 +1,5 @@
 const Data = {
-  productItems: [
+ /* productItems: [
     {
       id: 1,
       vin: "bla bla bla",
@@ -124,7 +124,7 @@ const Data = {
     },
   ],
 };
-/*   {
+  {*/
     productItems: [
       {
         id: 1,
@@ -181,5 +181,5 @@ const Data = {
           "Harvest Vases are a reinterpretation of peeled fruits and vegetables as functional objects. The surfaces appear to be sliced and pulled aside, allowing room for growth.",
       },
     ],
-  }; */
+  }; 
 export default Data;

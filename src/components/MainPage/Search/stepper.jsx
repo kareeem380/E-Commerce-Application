@@ -55,7 +55,7 @@ export default function VerticalLinearStepper() {
   const c = useStyles();
 
   return (
-    <div className='containers'>
+    <div className='container'>
     <Box sx={{ maxWidth: 400 }}>
       <Stepper activeStep={activeStep} className={c.root} orientation="vertical">
         {steps.map((step, index) => (
