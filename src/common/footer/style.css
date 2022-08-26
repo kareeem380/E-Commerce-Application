@@ -5,7 +5,7 @@ footer {
 }
 footer h1 {
   margin-bottom: 30px;
-  margin-left: 97px;
+  /* margin-left: 97px; */
   color: #e94560;
   font-weight: 800;
   font-style: italic;
@@ -46,4 +46,7 @@ footer li {
 }
 .content{
   cursor: pointer;
+}
+.box2{
+  margin: 0 1rem;
 }

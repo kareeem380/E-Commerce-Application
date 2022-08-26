@@ -22,7 +22,7 @@ const Footer = () => {
     <>
       <footer>
         <div className='container grid3'>
-          <div className='box'>
+          <div className='box2'>
             <h1>OTOMOTO</h1>
             <p className="centre">Vous avez une diversité de pièces auto au Maroc pour toutes les marques auto</p>
          {/* <div className='icon d_flex'>
@@ -37,7 +37,7 @@ const Footer = () => {
             </div> */}
           </div>
 
-          <div className='box spacer'>
+          <div className='box2'>
             <h2>Infos pratiques</h2>
             <ul>
               <li>QUI SOMMES-NOUS ?</li>
@@ -66,7 +66,7 @@ const Footer = () => {
               <li>Créer un compte </li>
             </ul>
           </div>
-          <div className='box spacer'>
+          <div className='box2'>
             <h2>Service client</h2>
             <ul>
               <li>Informations Legales </li>
@@ -74,7 +74,7 @@ const Footer = () => {
               <li>Paiement et Livraison </li>
             </ul>
           </div>
-          <div className='box spacer'>
+          <div className='box2'>
             <h2>Contactez-nous</h2>
             <ul>
               <li>Casablanca , Maroc </li>
