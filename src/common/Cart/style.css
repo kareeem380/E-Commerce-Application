@@ -13,6 +13,36 @@
   margin-top: 30px;
   margin-left: 30px;
   height: 130px;
+  
+}
+.cart-items .cart-total6 {
+  width: 30%;
+display: flex;
+  margin-left: 500px;
+  margin-right: 500px;
+  height: 90px;
+}
+#btn{
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+  display: inline-block;
+  height: 50px;
+  width: 176px;
+/*   margin: 0 40px 0 16px; */
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #0f3460;
+  cursor: pointer;
+  outline: none;
 }
 .cart-list {
   background: white;

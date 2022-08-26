@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom"
 
 const Cart = ({ CartItem, addToCart, decreaseQty, removeProduct }) => {
   // Stpe: 7   calucate total of items
@@ -77,8 +78,21 @@ const Cart = ({ CartItem, addToCart, decreaseQty, removeProduct }) => {
               <h3>${totalPrice}.00</h3>
             </div>
           </div>
+          
         </div>
+        <div className="cart-total6 product">
+           
+            <div className=" d_flex">
+            <Link to='/Payment'>
+            <button id="btn" type="button" >
+              Checkout
+            </button>
+            </Link>
+            </div>
+          </div>
+        
       </section>
+      
     </>
   );
 };

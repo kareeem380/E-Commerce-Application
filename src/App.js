@@ -8,6 +8,8 @@ import Cart from "./common/Cart/Cart";
 import Footer from "./common/footer/Footer";
 import Sdata from "./components/shops/Sdata";
 import Description from "./components/description/description";
+import Checkout from "./components/Checkout/Checkout";
+import Payment from "./components/Payment/Payment";
 import { DescriptionProvider } from "./contextApi/DescriptionContext";
 function App() {
   /*
@@ -109,6 +111,16 @@ function App() {
                 CartItem={CartItem}
                 addToCart={addToCart}
                 decreaseQty={decreaseQty}
+              />
+            </Route>
+            <Route path="/Checkout" exact>
+              <Checkout
+                
+              />
+            </Route>
+            <Route path="/Payment" exact>
+              <Payment
+                
               />
             </Route>
           </Switch>
