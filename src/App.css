@@ -16,10 +16,9 @@ body {
   padding: 50px 0;
 }
 .containers {
- 
   margin-top: 8%;
- 
 }
+
 .container {
   max-width: 90%;
   margin: auto;
@@ -77,6 +76,9 @@ button {
 /*---------category----------*/
 .contentWidth {
   width: 75%;
+}
+.contentWidt {
+  width: 100%;
 }
 .category {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
@@ -178,6 +180,17 @@ button {
   height: 35px;
   border-radius: 5px;
 }
+.prices button {
+  background: none;
+  color: #e94560;
+  font-size: 20px;
+  transition: 0.5s;
+  border: 1px solid rgb(3 0 71 / 9%);
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 160px;
+}
 .price button:hover {
   cursor: pointer;
   background-color: #e94560;
@@ -261,4 +274,9 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
 }

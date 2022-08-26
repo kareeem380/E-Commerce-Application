@@ -114,5 +114,13 @@
 }
 
 .product-price-btn button:hover {
+
   background-color: #0f3460;
+}
+.spacer{
+  width: 1px;
+}
+.block{
+  margin-left: 40px;
+  display: flex;
 }

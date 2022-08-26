@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className='container grid2'>
+        <div className='container grid3'>
           <div className='box'>
             <h1>OTOMOTO</h1>
             <p className="centre">Vous avez une diversité de pièces auto au Maroc pour toutes les marques auto</p>
