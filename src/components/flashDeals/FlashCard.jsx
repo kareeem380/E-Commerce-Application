@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
-
+import "./style.css";
 import DescriptionContext from "../../contextApi/DescriptionContext";
 const SampleNextArrow = (props) => {
   const { onClick } = props;
@@ -48,14 +48,18 @@ const FlashCard = ({ productItems, addToCart }) => {
       <Slider {...settings}>
         {productItems.map((productItem) => {
           return (
-            <div className="box" onClick={() => addToDescription(productItem)}>
+            <div
+              className="box"
+              onClick={() => addToDescription(productItem)}
+              key={productItem.id}
+            >
               <Link to="/description">
                 <div className="product mtop">
                   <div className="img">
                     <span className="discount">
                       {productItem.discount}% Off
                     </span>
-                    <img src={productItem.cover} alt="" />
+                    <img src={productItem.cover} alt="" className="img" />
                     <div className="product-like">
                       <label>{count}</label> <br />
                       <i
